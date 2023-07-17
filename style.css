@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.column {
+    border: 2px solid red;
+}
+
+.body {
+    background-color: #303030;
+}
+
+.hamburger-logo {
+    display: flex;
+}
+
+#nav-main-div {
+    z-index: 1000;
+}
+
+.angular-indvidual:hover {
+    cursor: pointer;
+}
+
+.angular-indvidual {
+    margin-left: 10px;
+    cursor: pointer;
+    /* background-color: aqua; */
+}
+#hamburger{
+    cursor: pointer;
+}
+
+.hamburger-logo {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+@media(max-width:1150px) {
+    .hamburger-logo {
+        display: flex;
+        transition: .5s ease-in;
+    }
+}
+
+.logolist {
+    display: flex;
+    /* display: inline-block; */
+}
+
+.navbar-nav {
+    display: contents;
+
+}
+
+.nav-link {
+    padding-left: 20px;
+}
+
+@media screen and (max-width:1150px) {
+    .logolist {
+        display: none;
+    }
+
+}
+
+#right-nav-div {
+    float: right;
+}
+
+.col-4.col-sm-4.col-md-6.col-lg-6.col-xl-6.col-xxl-6 {
+    width: auto;
+    height: 100%;
+}
+
+.col-8.col-sm-8.col-md-6.col-lg-6.col-xl-6.col-xxl-6 {
+    width: auto;
+    height: 100%;
+}
+
+#slash {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding-left: 7px;
+    padding-right: 5px;
+    right: 36px;
+    bottom: 1px;
+
+
+}
+
+.search input {
+    border: none;
+    transform: translateY(-1px);
+    padding-top: 1px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    height: 32px;
+    margin-bottom: 5px;
+    width: 180px;
+
+}
+
+#darkmode {
+    transform: translateY(4px);
+     font-size: 23px;
+    color: #fff;
+    padding: 5px 7px 4px 3px;
+    border-right: 1px solid #fff;
+}
+
+#darkmode:hover {
+    cursor: pointer;
+}
+
+.social-links {
+    width: 25px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:515px) {
+    #searchBar {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    #twitter-logo {
+        display: none;
+    }
+
+    #youtube-logo {
+        display: none;
+    }
+
+    #github-logo {
+        width: 33px;
+        margin-left: 24px;
+        margin-top: -8px;
+    }
+}
+
+.inclined-part {
+
+    width: 100%;
+    height: 560px;
+    transform: skewY(8deg);
+    background-color: #1463BF;
+    margin-top: -167px;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+#incline-container {
+    /* display:flex; */
+}
+
+@media screen and (max-width:600px) {
+    .inclined-part {
+        transform: skewY(0deg);
+    }
+}
+
+.hamburger-menu {
+    background-color: #333333;
+    position: fixed;
+    bottom: 0;
+    left: -293px;
+     height: 100vh;
+      width: 285px;
+    /* display: none; */
+    z-index: 1100000;
+
+}
+.hamburger-menu.active{
+left: 0px;
+}
+
+.hamburger-menu ul {
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.hamburger-menu ul li {
+    border-radius: 5px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 11px 0px 11px 20px;
+}
+
+@media screen and (max-width:1150px) {
+    .hamburger-menu {
+       
+        background-color: #333333;
+        position: fixed;
+       
+        top: 55px;
+        transition: all 0.2s ease-in-out;
+        z-index: 1000;
+    }
+}
+
+
+
+
+
+#secondpart{
+    height: 452px;
+    width: 100%;
+    margin-top: -1011px;
+    z-index: 1000;
+    position: absolute;
+}@media screen and (max-width:990px) {
+    #secondpart{
+        margin-top: -1180px;
+    }
+}
+@media screen and (max-width:720px) {
+    #secondpart{
+        margin-top: -1339px;
+    }
+}
+@media screen and (max-width:680px) {
+    #secondpart{
+        margin-top: -1339px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #secondpart{
+        margin-top: -2000px;
+    }
+}
+@media  screen and (max-width:500px) {
+   
+    #secondpart{
+        margin-top: -2000px;
+        position: absolute;
+        z-index: 100;
+    }
+}
+
+
+.container.secondpart {
+    height: 452px;
+    width: 100%;
+}
+
+.container.secondpart .row {
+    height: 100%;
+    width: auto;
+}
+
+.col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.logo {
+    background-image: url(/resourses/images/angular.logo-main.svg);
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.written {
+    height: 400px;
+}
+
+.col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.written h1 {
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#learn {
+    background-color: #444444;
+}
+
+.tryangular {
+    height: 42px;
+    width: 188px;
+    border: none;
+    border-radius: 20px;
+    color: #7FC9FF;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.822);
+    background-color: #fff;
+}
+
+#triangle {
+    background-color: #3F4750;
+}
+
+.tryangular:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #1976d2;
+}
+
+@media (max-width:992px) {
+    .col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.logo {
+        margin-top: -30px;
+        height: 286px;
+    }
+
+    .col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.written {
+        margin-top: -50px;
+        height: 246px;
+    }
+
+    .col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.written h1 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+}
+
+.middle-container {
+    width: 100%;
+    height: auto;
+    background-color: #303030;
+    /* z-index: 120; */
+    position: relative;
+    margin-top: -19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 168px;
+}
+
+
+.card-container {
+    margin-top: 171px;
+    border: 3px solid yellow;
+    position: absolute;
+    z-index: 1000;
+    background-color: aquamarine;
+    width: 934px;
+    height: 602px;
+}
+
+.thirdpart {
+    height: auto;
+}
+
+.row.justify-content-center.mt-5 {
+    text-align: center;
+    padding-top: 250px;
+}
+
+@media (max-width:850px) {
+    .row.justify-content-center.mt-5 {
+        text-align: left;
+        padding-top: 55px;
+
+    }
+}
+
+#cards-main-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.row.justify-content-center.down {
+    margin-top: 40px;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #7FC9FF;
+    font-weight: 600;
+}
+
+.card-text {
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.card-link {
+    color: #1976d2;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-img {
+    max-width: 277px;
+}
+
+@media (min-width:600px) {
+    .card-deck {
+        display: flex;
+    }
+}
+
+@media (max-width:575px) {
+    .card {
+        text-align: center;
+
+    }
+
+}
+
+.learnmore button {
+    background-color: #fff;
+    margin-top: 5px;
+
+    padding-top: 10px;
+    color: #7FC9FF;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.822);
+    border: 1px none;
+    border-radius: 21px;
+    height: 42px;
+    width: 172px;
+    margin-bottom: 40px;
+}
+
+.learnmore button:hover h2 {
+    text-decoration: underline;
+}
+
+.learnmore button h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+footer{
+    padding: 50px;
+    position: relative;
+    height: auto;
+    background-image: url(/resourses/images/footer_background.png);
+    /* background-position: center */
+    background-size: cover;
+}
+footer::after{
+    
+    content: "";
+    position: absolute;
+    inset: 0;    
+    opacity: .05;
+    background-size: 320px auto;
+
+}
+footer section{
+    z-index: 1;
+}
+.footerdiv{
+
+    height: auto;
+    max-width: 1300px;
+    color: #fff;
+
+}
+#footer-space{
+    padding-top: 54px;
+}
+.col-6.col-sm-6.col-md-3.col-lg-3.col-xl-3.col-xxl-3.foot h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.col-6.col-sm-6.col-md-3.col-lg-3.col-xl-3.col-xxl-3.foot li{
+    list-style: none;
+    margin-top: 10px;
+}
+.col-6.col-sm-6.col-md-3.col-lg-3.col-xl-3.col-xxl-3.foot ul{
+    padding-left: 0;
+}
+.fooa a{
+    text-decoration: none;
+    color: inherit;
+}
+.foolist li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.fooa a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
