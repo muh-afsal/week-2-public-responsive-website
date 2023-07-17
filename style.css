@@ -262,7 +262,7 @@ left: 0px;
 }
 
 .col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.logo {
-    background-image: url(../resourses/images/angular.logo-main.svg);
+    background-image: url(../angular/resourses/images/angular.logo-main.svg);
 
     background-size: contain;
     background-position: center;
@@ -446,7 +446,7 @@ footer{
     padding: 50px;
     position: relative;
     height: auto;
-    background-image: url(../resourses/images/footer_background.png);
+    background-image: url(../angular/resourses/images/footer_background.png);
     /* background-position: center */
     background-size: cover;
 }
